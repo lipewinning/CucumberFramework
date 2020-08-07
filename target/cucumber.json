@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6617865377,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login into account with correct credentials",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-correct-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4422487020,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to stackoverflow website",
+            "match": {
+              "location": "LoginSteps.user_navigates_to_stackoverflow_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1694296629,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on the login button on homepage",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_the_login_button_on_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1247868212,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters a valid username",
+            "match": {
+              "location": "LoginSteps.user_enters_a_valid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1250797045,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters a valid password",
+            "match": {
+              "location": "LoginSteps.user_enters_a_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1174453327,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000813900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be taken to the succesful login page",
+            "match": {
+              "location": "LoginSteps.user_should_be_taken_to_the_succesful_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into account",
+    "description": "Existing user should be able to login to account using correct credentials",
+    "id": "login-into-account",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
