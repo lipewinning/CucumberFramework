@@ -6,90 +6,358 @@
         "before": [
           {
             "result": {
-              "duration": 6617865377,
+              "duration": 4933223814,
               "status": "passed"
             },
             "match": {
               "location": "LoginSteps.setup()"
             }
+          },
+          {
+            "result": {
+              "duration": 1255435387,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ContactSteps.setup()"
+            }
           }
         ],
         "line": 4,
-        "name": "Login into account with correct credentials",
+        "name": "Submit valid data via contact us form",
         "description": "",
-        "id": "login-into-account;login-into-account-with-correct-credentials",
+        "id": "submit-data-to-wedriveruniversity.com-using-contact-us-form;submit-valid-data-via-contact-us-form",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4422487020,
+              "duration": 2489704103,
               "status": "passed"
             },
             "line": 5,
-            "name": "User navigates to stackoverflow website",
+            "name": "I access webdriveruniversity",
             "match": {
-              "location": "LoginSteps.user_navigates_to_stackoverflow_website()"
+              "location": "ContactSteps.i_access_webdriveruniversity()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1694296629,
+              "duration": 1176800104,
               "status": "passed"
             },
             "line": 6,
-            "name": "User clicks on the login button on homepage",
+            "name": "I click on the contact us button",
             "match": {
-              "location": "LoginSteps.user_clicks_on_the_login_button_on_homepage()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1247868212,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User enters a valid username",
-            "match": {
-              "location": "LoginSteps.user_enters_a_valid_username()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1250797045,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User enters a valid password",
-            "match": {
-              "location": "LoginSteps.user_enters_a_valid_password()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1174453327,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User clicks on the login button",
-            "match": {
-              "location": "LoginSteps.user_clicks_on_the_login_button()"
+              "location": "ContactSteps.i_click_on_the_contact_us_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1000813900,
+              "duration": 830053754,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter a valid first name",
+            "match": {
+              "location": "ContactSteps.i_enter_a_valid_first_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 624321388,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter a valid last name",
+            "match": {
+              "location": "ContactSteps.i_enter_a_valid_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 702638021,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter a valid email address",
+            "match": {
+              "location": "ContactSteps.i_enter_a_valid_email_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 793755398,
               "status": "passed"
             },
             "line": 10,
-            "name": "User should be taken to the succesful login page",
+            "name": "I enter commments",
             "match": {
-              "location": "LoginSteps.user_should_be_taken_to_the_succesful_login_page()"
+              "location": "ContactSteps.i_enter_commments(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "example comment one",
+                  "example comment two"
+                ],
+                "line": 11
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1938155322,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on the submit button",
+            "match": {
+              "location": "ContactSteps.i_click_on_the_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1121076994,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the information should successfully be submitterd via the contact us form",
+            "match": {
+              "location": "ContactSteps.the_information_should_successfully_be_submitterd_via_the_contact_us_form()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Submit data to wedriveruniversity.com using contact us form",
+    "description": "",
+    "id": "submit-data-to-wedriveruniversity.com-using-contact-us-form",
+    "keyword": "Feature",
+    "uri": "Contact.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1190318062,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1102430253,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ContactSteps.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login into account with valid password",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4393715,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I access webdriveruniversity.com",
+            "match": {
+              "location": "LoginSteps.i_access_webdriveruniversity_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1475987,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the login portal button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_portal_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264516,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter a username",
+            "match": {
+              "location": "LoginSteps.i_enter_a_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1637100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter a \"valid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 11
+                }
+              ],
+              "location": "LoginSteps.i_enter_a_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 308582,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the login button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72501407,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be presented with a successful validation alert",
+            "match": {
+              "location": "LoginSteps.i_should_be_presented_with_a_successful_validation_alert()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 995281050,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1146110638,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ContactSteps.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login into account with invalid password",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 158457,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I access webdriveruniversity.com",
+            "match": {
+              "location": "LoginSteps.i_access_webdriveruniversity_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 83906,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the login portal button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_portal_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67756,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter a username",
+            "match": {
+              "location": "LoginSteps.i_enter_a_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100040,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter a \"invalid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalid",
+                  "offset": 11
+                }
+              ],
+              "location": "LoginSteps.i_enter_a_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65441,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on the login button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74672537,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should be presented with a successful validation alert",
+            "match": {
+              "location": "LoginSteps.i_should_be_presented_with_a_successful_validation_alert()"
             },
             "keyword": "Then "
           }

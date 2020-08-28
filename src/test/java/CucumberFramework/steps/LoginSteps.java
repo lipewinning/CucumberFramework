@@ -102,5 +102,44 @@ public class LoginSteps {
 	public void user_should_be_taken_to_the_succesful_login_page2() throws Throwable {
 		System.out.println("User should be taken to the succesful login page2");
 	}
+	
+	@Given("^I access webdriveruniversity\\.com$")
+	public void i_access_webdriveruniversity_com() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("");
+	}
+
+	@Given("^I click on the login portal button$")
+	public void i_click_on_the_login_portal_button() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("I click on the login portal button");
+	}
+
+	@Given("^I enter a username$")
+	public void i_enter_a_username() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("I enter a username");
+	}
+
+	@Given("^I enter a \"([^\"]*)\" password$")
+	public void i_enter_a_password(String arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("I enter a \\\"([^\\\"]*)\\\" password");
+	}
+
+	@When("^I click on the login button$")
+	public void i_click_on_the_login_button() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("I click on the login button");
+	}
+
+	@Then("^I should be presented with a successful validation alert$")
+	public void i_should_be_presented_with_a_successful_validation_alert() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("I should be presented with a successful validation alert");
+		driver.quit();
+	}
+
+	
 
 }
